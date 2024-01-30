@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+    user-select: none;
+}
+body{
+    background: linear-gradient(170deg, #1b79d0, #41e678);
+    background-size: cover;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+}
+button{
+    padding: 15px 25px;
+    border-radius: 25px;
+    border: none;
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+}
+p{
+    color: #fff;
+}
